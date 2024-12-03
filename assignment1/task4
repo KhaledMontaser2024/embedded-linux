@@ -1,0 +1,8 @@
+
+when writing a command it returns two types of outputs 
+
+1- if the command is executed succsesfuly, then stdout returns the desired
+output 
+
+2- if there was an Error while excuting the command stderr will return 
+an error 

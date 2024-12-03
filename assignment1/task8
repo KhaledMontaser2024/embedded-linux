@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "Enter Directory name :"
+read -r direc
+find $direc -empty

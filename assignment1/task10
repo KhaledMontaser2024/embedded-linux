@@ -1,0 +1,5 @@
+to use arethmetic operations within shell scripts one can use:
+
+1- $(( NUM Operation NUM )) 
+2- $[ NUM operation NUM ]
+

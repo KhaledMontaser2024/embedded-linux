@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "Enter a number:"
+read -r num
+if [[ num -ne 0 ]];then
+fac=1
+for ((i=num ; i>=1 ; i--));
+do 
+fac=$[fac*i]
+done
+echo "Factorial of $num = $fac"
+else
+echo "please enter a valed number !"
+fi

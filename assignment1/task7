@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+echo "Enter a file name :"
+read -r FileName
+if [[ -f $FileName ]];then
+sort -o $FileName -u $FileName
+echo "done"
+cat $FileName
+else 
+echo "File do not exist"
+fi 

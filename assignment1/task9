@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo "enter directory name:"
+read -r direc
+
+rename 'y/A-Z/a-z/' $direc/* 
+echo "Converting file names from Uppercase to Lowercase is done"

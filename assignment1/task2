@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+echo -n "Enter your name:"
+read -r name
+if [[ -n $name ]];then
+echo "Hello $name !"
+else 
+echo "This is not a Name!!"
+fi

@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+echo "Enter number of array elements :"
+read -r N
+
+for ((i=0 ; i< N ; i++ )); 
+do
+echo "Enter element number $i :"
+read -r ele
+arr[i]=$ele
+sum=$[sum+ele]
+done 
+
+echo -n "Array elements are: [ "
+
+for ((i=0 ; i<N ; i++)); 
+do 
+echo -n "$[arr[i]] "
+done 
+echo "] "
+echo -n "And the sum of its elements is: "
+echo $sum
+
+

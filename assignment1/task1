@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+echo -n "Enter number:"
+read -r num
+if [[ $num -ne 0 ]];then  
+sum=0
+for ((i=1 ; i <= num ; i++));
+do
+sum=$[sum+i]
+done
+echo "sum of integers from 1 to $num = $sum"
+
+else 
+echo "please enter valed number"
+fi

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+echo "enter a file name:"
+read -r FileName
+if [[ -e $FileName ]];then
+echo "Enter the word you are searching for:"
+read -r word
+exist=$(grep -c "$word" "$FileName")
+echo "the word $word appeared $exist times in $FileName file"
+else
+echo "File does not exist"
+fi
