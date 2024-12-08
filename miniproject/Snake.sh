@@ -129,7 +129,7 @@ function check_eat()
 
 function check_score()
 {
-    if [[ $score -eq 5 ]];
+    if [[ $score -eq 15 ]];
     then
         echo ""
         echo "###########################################"

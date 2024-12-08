@@ -82,7 +82,7 @@ function PlayAgain()
             echo "##########################################" 
             exit
         elif [[ "${ans,,}" != "yes" ]]; then
-            echo "please enter valed response!! "
+            echo "please enter valid response!! "
         else
             TryCount=0
             rand=$[ 1 + $RANDOM %10 ]
